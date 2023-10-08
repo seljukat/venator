@@ -10,7 +10,7 @@ import DevelopersPage from './pages/DevelopersPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/venator'>
       <div className="App">
         <NavBar />
         <div id='page-body'>
