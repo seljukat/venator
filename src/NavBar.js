@@ -31,8 +31,8 @@ const NavBar = () => {
                     <Link to="/"><img className='logo' src={logo} alt='Venator Logo' /></Link>
                 </li> */}
 
-                <li className={splitLocation[1] === "venator" ? "main-nav-active" : ""}>
-                    <Link className='main-nav-a' to="/venator">Home</Link>
+                <li className={splitLocation[1] === "" ? "main-nav-active" : ""}>
+                    <Link className='main-nav-a' to="/">Home</Link>
                 </li>
                 <li className={splitLocation[1] === "project" ? "main-nav-active" : ""}>
                     <Link className='main-nav-a' to="/project">Project</Link>

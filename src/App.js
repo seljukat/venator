@@ -15,7 +15,7 @@ function App() {
         <NavBar />
         <div id='page-body'>
           <Routes>
-            <Route path='/venator' element={<HomePage />}/>
+            <Route path='/' element={<HomePage />}/>
             <Route path='/project' element={<ProjectPage />}/>
             <Route path='/documentations' element={<DocumentationsPage />}/>
             <Route path='/logs' element={<LogsPage />} />
