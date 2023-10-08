@@ -1,38 +1,98 @@
-.App {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+nav {
+  background-color: white;
+  border-bottom: 4px solid black;
   text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: top 0.3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+nav ul {
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  /* display: inline-block; */
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav .main-nav-a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  /* padding: 24px 32px; */
+  padding: 24px 32px;
+  /* transition: background-color 0.25s; */
+}
+
+nav .main-nav-a:hover {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-nav-active .main-nav-a {
+  background-color: black;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#page-body {
+  /* max-width: 700px; */
+  margin: auto;
+  /* padding-top: 72px; */
+  padding: 72px 72px 72px 72px;
 }
+
+.home-page-content, .project-content, .logs-page-content {
+  /* margin: auto; */
+  /* margin-top: 24.120px;; */
+  width: 60%;
+  text-align: justify;
+}
+
+.project-page-anim, .docs-page-anim, .developers-page-anim {
+  position: relative;
+  animation-name: toDown;
+  animation-duration: 0.5s;  
+  /* animation-fill-mode: forwards; */
+}
+
+/* .project-sidenav {
+  animation-name: toRight;
+  animation-duration: 6s; 
+  animation-fill-mode: forwards;
+} */
+
+@keyframes toDown {
+  from {top: -200px;}
+  to {top: 0px;}
+}
+
+/* @keyframes toRight {
+  from {left: -200px;}
+  to {left: 0; position: sticky; top: 80px;}
+} */

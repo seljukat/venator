@@ -1,0 +1,73 @@
+.project-page {
+    margin: 0 auto;
+    display: flex;
+}
+  
+.project-content {
+    padding: 26px;
+    padding-left: 32px;
+}
+
+.project-sidenav {
+    border-bottom: none;
+    border-right: 1px solid black;
+    text-align: left;
+    width: 160px;
+    min-width: 160px;
+    padding-left: 0;
+    padding-right: 32px;
+    margin: 8px;
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    max-height: calc(100vh - 70px);
+    overflow: auto;
+    z-index: 30;
+}
+/* .project-sidenav {
+    border-bottom: none;
+    border-right: 1px solid black;
+    text-align: left;
+    width: 160px;
+    min-width: 160px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 8px;
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: calc(100vh - 70px);
+    overflow: auto;
+    z-index: 30;
+} */
+
+@media screen and (max-width: 900px) {
+    .project-sidenav {
+        display: none;
+    }
+}
+  
+.sidenav-a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.sidenav-ul li.active > .sidenav-a {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+
+.sidenav-ul li > .sidenav-a:hover {
+    font-weight: 900;
+}
+  
+/*  Gives a little bit of buffer when header is .docs-sidenavigated to */
+.second, .third {
+    padding-top: 16px;
+    margin-top: -16px;
+}
