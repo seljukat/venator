@@ -32,7 +32,7 @@ const ProjectPage = () => (
             <p>{DummyText}</p>
             <p>{DummyText}</p>
             <p>{DummyText}</p>
-            <h3 className="third" id="third-header">Building the Production</h3>
+            <h3 className="third" id="third-header">Building the Product</h3>
             <p>{DummyText}</p>
             <p>{DummyText}</p>
             <p>{DummyText}</p>
