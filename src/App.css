@@ -80,19 +80,22 @@ nav .main-nav-a:hover {
   animation-duration: 0.5s;  
   /* animation-fill-mode: forwards; */
 }
-
-/* .project-sidenav {
-  animation-name: toRight;
-  animation-duration: 6s; 
-  animation-fill-mode: forwards;
-} */
-
 @keyframes toDown {
   from {top: -200px;}
   to {top: 0px;}
 }
 
+.project-sidenav {
+  animation-name: toRight;
+  animation-duration: 0.5s; 
+  animation-fill-mode: forwards;
+}
 /* @keyframes toRight {
-  from {left: -200px;}
+  from {left: -300px; position: relative; top: 0;}
   to {left: 0; position: sticky; top: 80px;}
 } */
+@keyframes toRight {
+  0% {left: -300px; position: relative; top: 0;}
+  99% {left: 0; position: relative; top: 0;}
+  100% {left: 0; position: sticky; top: 80px;}
+}

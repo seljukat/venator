@@ -8,7 +8,7 @@
     padding-left: 32px;
 }
 
-.project-sidenav {
+/* .project-sidenav {
     border-bottom: none;
     border-right: 1px solid black;
     text-align: left;
@@ -24,25 +24,24 @@
     max-height: calc(100vh - 70px);
     overflow: auto;
     z-index: 30;
-}
-/* .project-sidenav {
+} */
+.project-sidenav {
     border-bottom: none;
     border-right: 1px solid black;
     text-align: left;
     width: 160px;
     min-width: 160px;
-    padding-left: 32px;
+    padding-left: 0;
     padding-right: 32px;
     margin: 8px;
     align-self: flex-start;
     position: -webkit-sticky;
     position: relative;
     top: 0;
-    left: 0;
     max-height: calc(100vh - 70px);
     overflow: auto;
     z-index: 30;
-} */
+}
 
 @media screen and (max-width: 900px) {
     .project-sidenav {
