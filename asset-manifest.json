@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/venator/static/css/main.d6f5b94e.css",
-    "main.js": "/venator/static/js/main.58553d99.js",
+    "main.css": "/venator/static/css/main.3462c528.css",
+    "main.js": "/venator/static/js/main.4511990a.js",
     "static/js/787.a6207227.chunk.js": "/venator/static/js/787.a6207227.chunk.js",
     "index.html": "/venator/index.html",
-    "main.d6f5b94e.css.map": "/venator/static/css/main.d6f5b94e.css.map",
-    "main.58553d99.js.map": "/venator/static/js/main.58553d99.js.map",
+    "main.3462c528.css.map": "/venator/static/css/main.3462c528.css.map",
+    "main.4511990a.js.map": "/venator/static/js/main.4511990a.js.map",
     "787.a6207227.chunk.js.map": "/venator/static/js/787.a6207227.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6f5b94e.css",
-    "static/js/main.58553d99.js"
+    "static/css/main.3462c528.css",
+    "static/js/main.4511990a.js"
   ]
 }
