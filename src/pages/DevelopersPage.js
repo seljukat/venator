@@ -17,11 +17,9 @@ const DevelopersPage = () => (
                     <h1 className='flip-surname'>Uyaroğlu</h1> 
                     <p>Computer Engineer</p> 
                     <div className='flip-card-back-footer'>
-                        <a className='icon-link' href='#' target='_blank' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='#' target='_self' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a></div>
                         <div className='between'></div>
-                        <a className='icon-link' href='https://www.linkedin.com/in/arda-uyaro%C4%9Flu/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a>
-                        <div className='between'></div>
-                        <a className='icon-link' href='https://www.instagram.com/arda_uyaroglu/' target='_blank' rel='noreferrer'><AiOutlineInstagram className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='https://www.linkedin.com/in/arda-uyaro%C4%9Flu/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a></div>
                     </div>
                 </div>
             </div>
@@ -37,11 +35,9 @@ const DevelopersPage = () => (
                     <h1 className='flip-surname'>Tomaç</h1> 
                     <p>Computer Engineer</p> 
                     <div className='flip-card-back-footer'>
-                        <a className='icon-link' href='#' target='_blank' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='#' target='_self' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a></div>
                         <div className='between'></div>
-                        <a className='icon-link' href='https://www.linkedin.com/in/berkertomac/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a>
-                        <div className='between'></div>
-                        <a className='icon-link' href='https://www.instagram.com/berker_tmc/' target='_blank' rel='noreferrer'><AiOutlineInstagram className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='https://www.linkedin.com/in/berkertomac/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a></div>
                     </div>
                 </div>
             </div>
@@ -57,11 +53,9 @@ const DevelopersPage = () => (
                     <h1 className='flip-surname'>Topkaya</h1>
                     <p>Computer Engineer</p> 
                     <div className='flip-card-back-footer'>
-                        <a className='icon-link' href='#' target='_blank' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='#' target='_self' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a></div>
                         <div className='between'></div>
-                        <a className='icon-link' href='https://www.linkedin.com/in/sel%C3%A7uk-topkaya-233b02230/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a>
-                        <div className='between'></div>
-                        <a className='icon-link' href='https://www.instagram.com/seljukat_/' target='_blank' rel='noreferrer'><AiOutlineInstagram className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='https://www.linkedin.com/in/sel%C3%A7uk-topkaya-233b02230/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a></div>
                     </div>
                 </div>
             </div>
@@ -77,11 +71,9 @@ const DevelopersPage = () => (
                     <h1 className='flip-surname'>Oktay</h1>
                     <p>Computer Engineer</p> 
                     <div className='flip-card-back-footer'>
-                        <a className='icon-link' href='#' target='_blank' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='#' target='_self' rel='noreferrer'><AiOutlineGithub className='flip-icon' /></a></div>
                         <div className='between'></div>
-                        <a className='icon-link' href='https://www.linkedin.com/in/utku-oktay-9b30581b4/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a>
-                        <div className='between'></div>
-                        <a className='icon-link' href='https://www.instagram.com/utku_oktay/' target='_blank' rel='noreferrer'><AiOutlineInstagram className='flip-icon' /></a>
+                        <div className='devs-icon-container'><a className='icon-link' href='https://www.linkedin.com/in/utku-oktay-9b30581b4/' target='_blank' rel='noreferrer'><AiOutlineLinkedin className='flip-icon' /></a></div>
                     </div>
                 </div>
             </div>

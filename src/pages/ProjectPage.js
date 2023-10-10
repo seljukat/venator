@@ -6,7 +6,7 @@ const DummyText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusc
 const ProjectPage = () => (
     <>
 
-    <div className="project-page">
+    <div className="project-page project-scrollbar">
 
         <TableOfContents />
         <main className="project-content project-page-anim">

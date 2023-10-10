@@ -69,9 +69,19 @@
     justify-content: center;
 }
 
+.devs-icon-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .flip-card-back-footer .flip-icon {
+    opacity: 0.7;
     width: 50px;
     height: 50px;
+    transition: width 0.1s linear, height 0.1s linear, opacity 0.1s linear;
 }
 
 .between {
@@ -81,14 +91,26 @@
     margin-right: 20px;
 }
 
-.icon-link:link, .icon-link:visited, .icon-link:active {
-    opacity: 0.7;
+.icon-link:link, .icon-link:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
-.icon-link:hover {
-    transform: translateY(2px);
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link:active {
+    /* transform: translateY(4px); */
+    width: 50px;
+    height: 50px;
+}
+
+.flip-icon:hover {
+    width: 60px;
+    height: 60px;
     opacity: 1;
 }
