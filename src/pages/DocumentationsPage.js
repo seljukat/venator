@@ -25,7 +25,7 @@ const DocumentationsPage = () => (
                     <GrDocumentPdf style={{width:"200px",height:"200px"}}/>
                 </div>
                 <div className="doc-card-container">
-                    <h4><b>Desing Document</b></h4> 
+                    <h4><b>Design Document</b></h4> 
                     <p>Design bla bla bla</p> 
                 </div>
             </div>
