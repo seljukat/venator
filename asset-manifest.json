@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/venator/static/css/main.3462c528.css",
-    "main.js": "/venator/static/js/main.9bf133a9.js",
+    "main.css": "/venator/static/css/main.53a0f7b3.css",
+    "main.js": "/venator/static/js/main.6b358b83.js",
     "static/js/787.a6207227.chunk.js": "/venator/static/js/787.a6207227.chunk.js",
+    "static/media/Project Proposal.pdf": "/venator/static/media/Project Proposal.a6bbe975ed70391b29fa.pdf",
     "index.html": "/venator/index.html",
-    "main.3462c528.css.map": "/venator/static/css/main.3462c528.css.map",
-    "main.9bf133a9.js.map": "/venator/static/js/main.9bf133a9.js.map",
+    "main.53a0f7b3.css.map": "/venator/static/css/main.53a0f7b3.css.map",
+    "main.6b358b83.js.map": "/venator/static/js/main.6b358b83.js.map",
     "787.a6207227.chunk.js.map": "/venator/static/js/787.a6207227.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3462c528.css",
-    "static/js/main.9bf133a9.js"
+    "static/css/main.53a0f7b3.css",
+    "static/js/main.6b358b83.js"
   ]
 }
