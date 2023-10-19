@@ -7,7 +7,7 @@ const DocumentationsPage = () => (
    
     <div className="doc-cards docs-page-anim">
 
-        <a className='doc-link' href={projectProposal} download="Project Proposal.pdf" target='_blank' rel='noreferrer'>
+        <a className='doc-link' href={projectProposal} target='_blank' rel='noreferrer'>
             <div className="doc-card">
                 <div className="doc-card-top">
                     <GrDocumentPdf style={{width:"200px",height:"200px"}}/>
