@@ -2,6 +2,7 @@ import '../styles/doc-cards.css';
 import { GrDocumentPdf } from 'react-icons/gr';
 import projectProposal from '../Documents/Project Proposal.pdf';
 import projectSpecificationsReport from '../Documents/Project Specifications Report.pdf';
+import analysisReport from '../Documents/Analysis Report.pdf';
   
 const DocumentationsPage = () => (
     <>
@@ -26,6 +27,17 @@ const DocumentationsPage = () => (
                 </div>
                 <div className="doc-card-container">
                     <h4><b>Project Specifications Report</b></h4> 
+                </div>
+            </div>
+        </a>
+
+        <a className='doc-link' href={analysisReport} target='_blank' rel='noreferrer'>
+            <div className="doc-card">
+                <div className="doc-card-top">
+                    <GrDocumentPdf style={{width:"200px",height:"200px"}}/>
+                </div>
+                <div className="doc-card-container">
+                    <h4><b>Project Analysis Report</b></h4> 
                 </div>
             </div>
         </a>
