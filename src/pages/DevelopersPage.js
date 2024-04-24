@@ -1,5 +1,11 @@
 import "../styles/flip-cards.css";
-import { RxAvatar } from "react-icons/rx";
+
+import arda from "../devs/arda.jpg";
+import berker from "../devs/berker.jpg";
+import selçuk from "../devs/selçuk.jpg";
+import utku from "../devs/utku.png";
+
+// import { RxAvatar } from "react-icons/rx";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 const DevelopersPage = () => (
@@ -8,7 +14,18 @@ const DevelopersPage = () => (
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <RxAvatar style={{ width: "200px", height: "200px" }} />
+            {/* <RxAvatar style={{ width: "200px", height: "200px" }} /> */}
+            <img
+              alt=""
+              src={arda}
+              style={{
+                width: "200px",
+                height: "200px",
+                objectFit: "cover",
+                borderRadius: "50%",
+                border: "10px solid black",
+              }}
+            />
           </div>
           <div className="flip-card-back">
             <h1 className="flip-name">Arda</h1>
@@ -44,7 +61,18 @@ const DevelopersPage = () => (
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <RxAvatar style={{ width: "200px", height: "200px" }} />
+            {/* <RxAvatar style={{ width: "200px", height: "200px" }} /> */}
+            <img
+              alt=""
+              src={berker}
+              style={{
+                width: "200px",
+                height: "200px",
+                objectFit: "cover",
+                borderRadius: "50%",
+                border: "10px solid black",
+              }}
+            />
           </div>
           <div className="flip-card-back">
             <h1 className="flip-name">Berker</h1>
@@ -80,7 +108,18 @@ const DevelopersPage = () => (
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <RxAvatar style={{ width: "200px", height: "200px" }} />
+            {/* <RxAvatar style={{ width: "200px", height: "200px" }} /> */}
+            <img
+              alt=""
+              src={selçuk}
+              style={{
+                width: "200px",
+                height: "200px",
+                objectFit: "cover",
+                borderRadius: "50%",
+                border: "10px solid black",
+              }}
+            />
           </div>
           <div className="flip-card-back">
             <h1 className="flip-name">Selçuk</h1>
@@ -116,7 +155,18 @@ const DevelopersPage = () => (
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <RxAvatar style={{ width: "200px", height: "200px" }} />
+            {/* <RxAvatar style={{ width: "200px", height: "200px" }} /> */}
+            <img
+              alt=""
+              src={utku}
+              style={{
+                width: "200px",
+                height: "200px",
+                objectFit: "cover",
+                borderRadius: "50%",
+                border: "10px solid black",
+              }}
+            />
           </div>
           <div className="flip-card-back">
             <h1 className="flip-name">Utku</h1>
