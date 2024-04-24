@@ -1,17 +1,26 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 nav {
@@ -67,27 +76,35 @@ nav .main-nav-a:hover {
   padding: 72px 72px 72px 72px;
 }
 
-.home-page-content, .project-content, .logs-page-content {
+.home-page-content,
+.project-content,
+.logs-page-content {
   /* margin: auto; */
   /* margin-top: 24.120px;; */
   width: 60%;
   text-align: justify;
 }
 
-.project-page-anim, .docs-page-anim, .developers-page-anim {
+.project-page-anim,
+.docs-page-anim,
+.developers-page-anim {
   position: relative;
   animation-name: toDown;
-  animation-duration: 0.5s;  
+  animation-duration: 0.5s;
   /* animation-fill-mode: forwards; */
 }
 @keyframes toDown {
-  from {top: -200px;}
-  to {top: 0px;}
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 .project-sidenav {
   animation-name: toRight;
-  animation-duration: 0.5s; 
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 /* @keyframes toRight {
@@ -95,7 +112,19 @@ nav .main-nav-a:hover {
   to {left: 0; position: sticky; top: 80px;}
 } */
 @keyframes toRight {
-  0% {left: -300px; position: relative; top: 0;}
-  99% {left: 0; position: relative; top: 0;}
-  100% {left: 0; position: sticky; top: 80px;}
+  0% {
+    left: -300px;
+    position: relative;
+    top: 0;
+  }
+  99% {
+    left: 0;
+    position: relative;
+    top: 0;
+  }
+  100% {
+    left: 0;
+    position: sticky;
+    top: 80px;
+  }
 }
