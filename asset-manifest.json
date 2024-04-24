@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/venator/static/css/main.b193d95d.css",
-    "main.js": "/venator/static/js/main.2df06a18.js",
+    "main.css": "/venator/static/css/main.f3257742.css",
+    "main.js": "/venator/static/js/main.f6891e0e.js",
     "static/js/787.a6207227.chunk.js": "/venator/static/js/787.a6207227.chunk.js",
+    "static/media/after.mp4": "/venator/static/media/after.12487658379ae741345c.mp4",
+    "static/media/before.mp4": "/venator/static/media/before.25a685d27cf3abce5927.mp4",
     "static/media/Analysis Report.pdf": "/venator/static/media/Analysis Report.9a37016bf4d3de02681f.pdf",
     "static/media/High-Level Design Report.pdf": "/venator/static/media/High-Level Design Report.b9d9e839a66644066332.pdf",
     "static/media/venator-LLDReport.pdf": "/venator/static/media/venator-LLDReport.680f9b717b55ebdd910a.pdf",
     "static/media/Project Specifications Report.pdf": "/venator/static/media/Project Specifications Report.0c8a060350506844305c.pdf",
     "static/media/Project Proposal.pdf": "/venator/static/media/Project Proposal.a6bbe975ed70391b29fa.pdf",
     "index.html": "/venator/index.html",
-    "main.b193d95d.css.map": "/venator/static/css/main.b193d95d.css.map",
-    "main.2df06a18.js.map": "/venator/static/js/main.2df06a18.js.map",
+    "main.f3257742.css.map": "/venator/static/css/main.f3257742.css.map",
+    "main.f6891e0e.js.map": "/venator/static/js/main.f6891e0e.js.map",
     "787.a6207227.chunk.js.map": "/venator/static/js/787.a6207227.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b193d95d.css",
-    "static/js/main.2df06a18.js"
+    "static/css/main.f3257742.css",
+    "static/js/main.f6891e0e.js"
   ]
 }
