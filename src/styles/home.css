@@ -4,3 +4,16 @@
   align-items: center;
   justify-content: space-around;
 }
+
+.content {
+  width: 40%;
+}
+
+.text {
+  width: 90%;
+  text-align: justify;
+}
+
+.bold {
+  font-weight: bold;
+}
