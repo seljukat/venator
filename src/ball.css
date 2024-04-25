@@ -25,66 +25,73 @@
 } */
 
 .spinning-ball-left {
-    /* padding: 24px 32px; */
-    position: fixed;
-    /* top: 10px; */
-    left: 10px;
-    /* padding-top: 24px;
+  /* padding: 24px 32px; */
+  position: fixed;
+  /* top: 10px; */
+  left: 10px;
+  /* padding-top: 24px;
     padding-bottom: 0; */
-    /* margin-top:2px; */
-    /* margin-bottom: 10px; */
-    transform: translateY(-12px);
+  /* margin-top:2px; */
+  /* margin-bottom: 10px; */
+  transform: translateY(-12px);
 }
 
 .spinning-ball-right {
-    position: fixed;
-    right: 10px;
-    transform: translateY(-12px);
+  position: fixed;
+  right: 10px;
+  transform: translateY(-12px);
 }
 
 .main-fader .loader svg {
-    height: 50px;
-    /* display: block; */
-    /* margin: 0 auto; */
+  height: 50px;
+  /* display: block; */
+  /* margin: 0 auto; */
 }
 .main-fader .loader svg path {
-    animation-duration: 1s;
-    animation-name: pulse;
-    animation-iteration-count: infinite;
-    color: #26a380;
+  animation-duration: 1s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  color: #26a380;
 }
 .main-fader .loader svg path.path-7 {
-    animation-delay: -1s;
+  animation-delay: -1s;
 }
 .main-fader .loader svg path.path-6 {
-    animation-delay: -0.875s;
+  animation-delay: -0.875s;
 }
 .main-fader .loader svg path.path-5 {
-    animation-delay: -0.75s;
+  animation-delay: -0.75s;
 }
 .main-fader .loader svg path.path-4 {
-    animation-delay: -0.625s;
+  animation-delay: -0.625s;
 }
 .main-fader .loader svg path.path-3 {
-    animation-delay: -0.5s;
+  animation-delay: -0.5s;
 }
 .main-fader .loader svg path.path-2 {
-    animation-delay: -0.375s;
+  animation-delay: -0.375s;
 }
 .main-fader .loader svg path.path-1 {
-    animation-delay: -0.25s;
+  animation-delay: -0.25s;
 }
 .main-fader .loader svg path.path-0 {
-    animation-delay: -0.125s;
+  animation-delay: -0.125s;
 }
 @keyframes pulse {
-    0% {
-        opacity: 0.1;
-   }
-    30% {
-        opacity: 0.8;
-   }
-    100% {
-        opacity: 0.1;
-   }
+  0% {
+    opacity: 0.1;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 480px) {
+  .spinning-ball-left,
+  .spinning-ball-right {
+    display: none;
+  }
 }
