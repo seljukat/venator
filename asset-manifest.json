@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/venator/static/css/main.c6a70aaa.css",
-    "main.js": "/venator/static/js/main.3b95f76b.js",
+    "main.js": "/venator/static/js/main.03752cd0.js",
     "static/js/787.a6207227.chunk.js": "/venator/static/js/787.a6207227.chunk.js",
-    "static/media/after.mp4": "/venator/static/media/after.12487658379ae741345c.mp4",
+    "static/media/after.mp4": "/venator/static/media/after.06a96a8b39f399423ffb.mp4",
     "static/media/before.mp4": "/venator/static/media/before.25a685d27cf3abce5927.mp4",
     "static/media/Analysis Report.pdf": "/venator/static/media/Analysis Report.9a37016bf4d3de02681f.pdf",
     "static/media/utku.png": "/venator/static/media/utku.2aa6251a1b604c8f5e15.png",
@@ -16,11 +16,11 @@
     "static/media/berker.jpg": "/venator/static/media/berker.ba0189dc3b00a2c28a9d.jpg",
     "index.html": "/venator/index.html",
     "main.c6a70aaa.css.map": "/venator/static/css/main.c6a70aaa.css.map",
-    "main.3b95f76b.js.map": "/venator/static/js/main.3b95f76b.js.map",
+    "main.03752cd0.js.map": "/venator/static/js/main.03752cd0.js.map",
     "787.a6207227.chunk.js.map": "/venator/static/js/787.a6207227.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a70aaa.css",
-    "static/js/main.3b95f76b.js"
+    "static/js/main.03752cd0.js"
   ]
 }
