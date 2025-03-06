@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venator/static/css/main.c6a70aaa.css",
-    "main.js": "/venator/static/js/main.2c4c45d3.js",
+    "main.js": "/venator/static/js/main.0a44a266.js",
     "static/js/787.a6207227.chunk.js": "/venator/static/js/787.a6207227.chunk.js",
     "static/media/before.mp4": "/venator/static/media/before.6eb0410af6a1a0923fff.mp4",
     "static/media/after.mp4": "/venator/static/media/after.530e504f400766ff64b2.mp4",
@@ -11,16 +11,15 @@
     "static/media/Project Specifications Report.pdf": "/venator/static/media/Project Specifications Report.0c8a060350506844305c.pdf",
     "static/media/utku_new.jpg": "/venator/static/media/utku_new.b90c06be383a94d6c405.jpg",
     "static/media/selçuk.jpg": "/venator/static/media/selçuk.4ae8cc4bce570a1fde6d.jpg",
-    "static/media/arda.jpg": "/venator/static/media/arda.03cd8b933faa205d8a50.jpg",
     "static/media/Project Proposal.pdf": "/venator/static/media/Project Proposal.a6bbe975ed70391b29fa.pdf",
     "static/media/berker.jpg": "/venator/static/media/berker.ba0189dc3b00a2c28a9d.jpg",
     "index.html": "/venator/index.html",
     "main.c6a70aaa.css.map": "/venator/static/css/main.c6a70aaa.css.map",
-    "main.2c4c45d3.js.map": "/venator/static/js/main.2c4c45d3.js.map",
+    "main.0a44a266.js.map": "/venator/static/js/main.0a44a266.js.map",
     "787.a6207227.chunk.js.map": "/venator/static/js/787.a6207227.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a70aaa.css",
-    "static/js/main.2c4c45d3.js"
+    "static/js/main.0a44a266.js"
   ]
 }
