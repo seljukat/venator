@@ -2,7 +2,8 @@ import "../styles/flip-cards.css";
 
 // import arda from "../devs/arda.jpg";
 import berker from "../devs/berker.jpg";
-import selçuk from "../devs/selçuk.jpg";
+// import selçuk from "../devs/selçuk.jpg";
+import selçuk from "../devs/selçuk_new.jpg";
 // import utku from "../devs/utku.png";
 import utku from "../devs/utku_new.jpg";
 

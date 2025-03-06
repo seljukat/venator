@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "./ball.css";
+import asaf_sunset from "./devs/asaf_sunset.jpg";
 
 const NavBar = () => {
   var prevScrollpos = window.scrollY;
@@ -30,7 +31,7 @@ const NavBar = () => {
                     <Link to="/"><img className='logo' src={logo} alt='Venator Logo' /></Link>
                 </li> */}
 
-        <li className="spinning-ball-left">
+        <li className="spinning-ball-left" onClick={() => window.open(asaf_sunset, "_blank")}>
           <div className="main-fader">
             <div className="loader">
               <svg viewBox="0 0 866 866" xmlns="http://www.w3.org/2000/svg">
@@ -101,11 +102,11 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        <li className={splitLocation[1] === "project" ? "main-nav-active" : ""}>
+        {/* <li className={splitLocation[1] === "project" ? "main-nav-active" : ""}>
           <Link className="main-nav-a" to="/project">
             Project
           </Link>
-        </li>
+        </li> */}
         <li
           className={
             splitLocation[1] === "documentations" ? "main-nav-active" : ""
@@ -128,7 +129,7 @@ const NavBar = () => {
           </Link>
         </li>
 
-        <li className="spinning-ball-right">
+        <li className="spinning-ball-right" onClick={() => window.open(asaf_sunset, "_blank")}>
           <div className="main-fader">
             <div className="loader">
               <svg viewBox="0 0 866 866" xmlns="http://www.w3.org/2000/svg">
