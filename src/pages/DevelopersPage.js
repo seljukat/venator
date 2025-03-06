@@ -1,6 +1,6 @@
 import "../styles/flip-cards.css";
 
-import arda from "../devs/arda.jpg";
+// import arda from "../devs/arda.jpg";
 import berker from "../devs/berker.jpg";
 import selçuk from "../devs/selçuk.jpg";
 // import utku from "../devs/utku.png";
@@ -12,10 +12,9 @@ import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 const DevelopersPage = () => (
   <>
     <div className="flip-cards developers-page-anim">
-      <div className="flip-card">
+      {/* <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            {/* <RxAvatar style={{ width: "200px", height: "200px" }} /> */}
             <img
               alt=""
               src={arda}
@@ -57,7 +56,7 @@ const DevelopersPage = () => (
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="flip-card">
         <div className="flip-card-inner">
