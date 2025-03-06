@@ -101,9 +101,11 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        {/* <li className={splitLocation[1] === "project" ? "main-nav-active" : ""}>
-                    <Link className='main-nav-a' to="/project">Project</Link>
-                </li> */}
+        <li className={splitLocation[1] === "project" ? "main-nav-active" : ""}>
+          <Link className="main-nav-a" to="/project">
+            Project
+          </Link>
+        </li>
         <li
           className={
             splitLocation[1] === "documentations" ? "main-nav-active" : ""
@@ -113,9 +115,11 @@ const NavBar = () => {
             Docs
           </Link>
         </li>
-        {/* <li className={splitLocation[1] === "logs" ? "main-nav-active" : ""}>
-                    <Link className='main-nav-a' to="/logs">Logs</Link>
-                </li> */}
+        <li className={splitLocation[1] === "logs" ? "main-nav-active" : ""}>
+          <Link className="main-nav-a" to="/logs">
+            Logs
+          </Link>
+        </li>
         <li
           className={splitLocation[1] === "developers" ? "main-nav-active" : ""}
         >

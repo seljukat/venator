@@ -3,7 +3,8 @@ import "../styles/flip-cards.css";
 import arda from "../devs/arda.jpg";
 import berker from "../devs/berker.jpg";
 import selçuk from "../devs/selçuk.jpg";
-import utku from "../devs/utku.png";
+// import utku from "../devs/utku.png";
+import utku from "../devs/utku_new.jpg";
 
 // import { RxAvatar } from "react-icons/rx";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
