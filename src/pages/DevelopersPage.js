@@ -1,6 +1,6 @@
 import "../styles/flip-cards.css";
 
-// import arda from "../devs/arda.jpg";
+import arda from "../devs/arda.jpg";
 import berker from "../devs/berker.jpg";
 // import selçuk from "../devs/selçuk.jpg";
 import selçuk from "../devs/selçuk_new.jpg";
@@ -13,7 +13,7 @@ import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 const DevelopersPage = () => (
   <>
     <div className="flip-cards developers-page-anim">
-      {/* <div className="flip-card">
+      <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img
@@ -57,7 +57,7 @@ const DevelopersPage = () => (
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="flip-card">
         <div className="flip-card-inner">
