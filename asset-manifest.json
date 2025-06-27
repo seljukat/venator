@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venator/static/css/main.39730067.css",
-    "main.js": "/venator/static/js/main.2a5714e1.js",
+    "main.js": "/venator/static/js/main.3a507b69.js",
     "static/js/787.a6207227.chunk.js": "/venator/static/js/787.a6207227.chunk.js",
     "static/media/before.mp4": "/venator/static/media/before.6eb0410af6a1a0923fff.mp4",
     "static/media/after.mp4": "/venator/static/media/after.530e504f400766ff64b2.mp4",
@@ -11,16 +11,17 @@
     "static/media/Project Specifications Report.pdf": "/venator/static/media/Project Specifications Report.0c8a060350506844305c.pdf",
     "static/media/utku_new.jpg": "/venator/static/media/utku_new.b90c06be383a94d6c405.jpg",
     "static/media/selçuk_new.jpg": "/venator/static/media/selçuk_new.2b38a6213a34908a29e3.jpg",
+    "static/media/arda.jpg": "/venator/static/media/arda.03cd8b933faa205d8a50.jpg",
     "static/media/Project Proposal.pdf": "/venator/static/media/Project Proposal.a6bbe975ed70391b29fa.pdf",
     "static/media/asaf_sunset.jpg": "/venator/static/media/asaf_sunset.f3d592e7532cdf93e681.jpg",
     "static/media/berker.jpg": "/venator/static/media/berker.ba0189dc3b00a2c28a9d.jpg",
     "index.html": "/venator/index.html",
     "main.39730067.css.map": "/venator/static/css/main.39730067.css.map",
-    "main.2a5714e1.js.map": "/venator/static/js/main.2a5714e1.js.map",
+    "main.3a507b69.js.map": "/venator/static/js/main.3a507b69.js.map",
     "787.a6207227.chunk.js.map": "/venator/static/js/787.a6207227.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39730067.css",
-    "static/js/main.2a5714e1.js"
+    "static/js/main.3a507b69.js"
   ]
 }
